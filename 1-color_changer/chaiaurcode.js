@@ -49,7 +49,7 @@ buttons.forEach(function(button){
         // Also log the target of the event (the button that was clicked) to the console.
         console.log(e.target);
 
-        // Check if the clicked button's id is 'grey'.
+        // Check if the clicked button's id is 'Grey'.
         if(e.target.id === 'grey'){
             // If so, change the background color of the body to grey.
             body.style.backgroundColor = e.target.id;
